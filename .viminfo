@@ -22,10 +22,19 @@
 # 寄存器:
 
 # 文件标记:
-'0  4  10  ~/2.txt
-'1  21  16  /etc/sysconfig/network-scripts/ifcfg-ens33
+'0  3  0  ~/3.txt
+'1  4  10  ~/2.txt
+'2  21  16  /etc/sysconfig/network-scripts/ifcfg-ens33
 
 # 跳转列表 (从新到旧):
+-'  3  0  ~/3.txt
+-'  1  0  ~/3.txt
+-'  4  10  ~/2.txt
+-'  1  0  ~/2.txt
+-'  21  16  /etc/sysconfig/network-scripts/ifcfg-ens33
+-'  1  0  /etc/sysconfig/network-scripts/ifcfg-ens33
+-'  21  16  /etc/sysconfig/network-scripts/ifcfg-ens33
+-'  1  0  /etc/sysconfig/network-scripts/ifcfg-ens33
 -'  4  10  ~/2.txt
 -'  1  0  ~/2.txt
 -'  21  16  /etc/sysconfig/network-scripts/ifcfg-ens33
@@ -34,6 +43,12 @@
 -'  1  0  /etc/sysconfig/network-scripts/ifcfg-ens33
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~/3.txt
+	"	3	0
+	^	3	0
+	.	2	13
+	+	2	13
 
 > ~/2.txt
 	"	4	10
